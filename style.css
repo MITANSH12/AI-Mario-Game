@@ -1,0 +1,32 @@
+.heading {
+    width: 100%;
+    text-align: left;
+}
+.heading h3 {
+    display: inline;
+}
+.heading button {
+    float: right;
+    border: 1px solid white;
+    transition: opacity 0.2s;
+}
+.heading button:hover {
+    opacity: 0.6;
+}
+.heading button:active {
+    opacity: 0.4;
+}
+#big_image {
+    width: 100%;
+}
+#start {
+    font-size: 24px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+video {
+    background: url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
